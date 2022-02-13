@@ -1,0 +1,118 @@
+@media only screen and (max-width:1154px) {
+    #name{
+        padding-top: 30%;
+    }
+    .navlist{
+        flex-direction: column;
+        margin: auto;
+    }
+    .navbar{
+        height: 478px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        
+    }
+    .rightnav{
+        text-align: center;
+        margin: auto; 
+    }
+    .burger{
+        display: block;
+    }
+    .h-class-resp{
+        height: 69px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    } 
+    
+}
+@media only screen and (max-width:890px) {
+    #c2 {
+        margin-top: 10%;
+    }
+    .courseimg {
+        height: 50%;
+    }    
+    .firstsection{
+        height: 60vh;
+    }
+    #sec3 {
+        
+        margin-top: 16%;
+    }
+    .secleft {
+        margin-top: 0;
+    }
+    
+}
+@media only screen and (max-width:816px) {
+    #wheading {
+        padding-right: 39px;
+    }
+    #sec3 {  
+        margin-top: 25%;
+    } 
+    .courseimg {
+        height: 50%;
+    }    
+
+}
+@media only screen and (max-width:760px) {
+    #c1{
+        display: block;
+    }
+    #c2{
+        display: block;
+    }
+    
+    .courseimg {
+        width: 50%;
+        height: 50%;
+    }
+    #jimg {
+        width: 50%;
+        margin-left: 23%;
+    }
+    #pimg {
+        width: 50%;
+    }
+    .courseimg {
+        margin-left: 23%;
+    }
+    #sec3{
+        display: block;
+    }
+    .secleft {
+        margin-left: 23%;
+    }
+    .secright img {
+        width: 50%;
+        height: 50%;
+        margin:7% 25%;
+    }
+    #sec4 {
+        display: block;
+        margin-top: 5%;
+    }
+    #left {
+        padding-left: 23%;
+        margin-top: 9%;
+    }
+    #right{
+        padding-left: 23%;
+        margin-top: 12%;
+    }
+    #course {
+        padding-bottom: 0px;
+      }
+}
+
+@media only screen and (max-width:440px) {
+    #wcontent {
+        padding-right: 99px;
+    }
+    .text1{
+        padding-right: 99px;
+    }
+}

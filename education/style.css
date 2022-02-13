@@ -1,0 +1,276 @@
+:root{
+    
+    --main-bg-color: #e63659;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    
+    display: flex;
+    position: sticky;
+    align-content: center;
+    justify-content: center;
+    top :0;
+    cursor: pointer;
+    
+}
+.navlist{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.navlist li{
+    list-style-type: none;
+    padding: 26px 30px;
+    font-size: 20px;
+
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+.navlist li a:hover{
+    font-weight: 800;
+    color: rgb(218, 216, 216);
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border:2px solid whitesmoke;
+    border-radius: 50px
+}
+.logo{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;    
+}
+.rightnav{
+    width: 30%;    
+    text-align: right;
+    padding: 0 23px;
+    margin-top: 16px;  
+}
+#search{
+    padding: 6px 17px;
+    font-size: 14px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+.btn {
+    border: 1px solid white ;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;   
+}
+.btn1 {
+    border: 1px solid var(--main-bg-color);
+    border-radius: 15px;
+    padding: 10px 25px;
+    background-color: var(--main-bg-color);
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;   
+}
+.btn-dark{
+    border: 1px solid black;
+    color: black;
+}
+.btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+
+.btn-dark:hover{
+    color: white;
+    background-color: black;
+}
+#apply a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+#apply :hover{
+    font-size: 15px;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.background{
+    background: rgba(0 ,0, 0, 0.7);
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+.box-main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 200px;
+    margin: auto;
+    max-width: 50%;
+    
+}
+#line{
+    width: 58px;
+    border: 1px solid var(--main-bg-color);
+    height: 1px;
+    background-color: var(--main-bg-color);
+    margin: 15px auto;
+    
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    color: rgb(238, 227, 227);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-small{
+    padding-right: 20px;
+    font-size: 20px;   
+}
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+}
+
+
+.text-big{
+    font-size: 30px; 
+}
+.text-big1{
+    font-size: 38px;
+    
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.thumbnail{
+    padding-top: 20px;
+}
+
+.thumbnail img{
+    height:180px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 26px;
+    
+}
+.section-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+.para{
+    padding: 0 50px;
+}
+.about{
+    padding: 60px 0px;
+}
+.sectionleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 34px;
+    
+    
+}
+
+.contact{
+    background-color: rgb(248, 245, 241);
+    height: 650px;
+    
+}
+.contact h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+   
+    
+}
+.form{
+    margin: 25px auto;
+    max-width: 62%;
+    
+    
+}
+.form-input{
+    width: 100%;
+    margin: 18px 0;
+    padding: 5px 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+footer{
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    color: white;
+    
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 4px;
+}
+#btn{
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+    
+    
